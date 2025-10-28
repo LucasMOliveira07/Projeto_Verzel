@@ -134,11 +134,10 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
-# Python / Backend
-venv/
-__pycache__/
-*.pyc
 
-# Chaves e tokens
-.env
-*.env
+# Python
+Backend/venv/
+__pycache__/
+Backend/__pycache__/
+*.pyc
+Backend/.env
